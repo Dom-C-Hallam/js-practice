@@ -1,25 +1,25 @@
-
+    /* +++ index.html/Home page CSS +++ */
+    
+    /* This selects the <div> containing the button and creates a box around it*/
     .btnwrapper {
-        margin-top: 50px;
+        margin-top: 50px; /* This pushes the button wrapper <div> 50px down from the above element */
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%; /*600px*/ /*100%*/
-        height: 300px;
-        border-radius: 10px;
-        transition: .4s ease-in;
-        border: 2px solid black;
-        box-shadow: 10px 10px 20px #333, -10px -10px 20px #bbb;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        width: 100%; /*600px*/ /*100%*/ /* This causes the button wrapper to span across the width of the page */
+        height: 300px; /* This sets the height of the <div> around the button to be 300px */
+        border-radius: 10px; 
+        transition: .4s ease-in; /* This creates a transition effect when the colour is changed */
+        border: 2px solid black; /* This creates a border around the div containing the button */
+        box-shadow: 10px 10px 20px #333, -10px -10px 20px #bbb; /* This creates a shadow around the box */
     }
-
+    /* This selects the button in index.html, it is currently the only button on the site*/
     button {
-        margin: auto;
-        font-size: 2rem;
-        font-weight: 600;
+        font-size: 2rem; /* This sets the size of the font, rem is used to assist the media queries */
+        font-weight: 600; /* This makes the text of the button slightly thicker */
         border-radius: 20px;
-        border: 2px solid black;
-        background-color: black;
-        color: white;
-        padding: 10px;
-        cursor: pointer;
+        border: 2px solid black; /* Creates a border around the button, it is black and 2px thick */
+        background-color: black; /* This sets the background colour of the button as black */
+        color: white; /* This sets the colour of the font as white */
+        cursor: pointer; /* This sets the cursor to a pointer when you hover over the button */
     }
