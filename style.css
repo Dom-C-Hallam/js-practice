@@ -1,8 +1,10 @@
+
     .btnwrapper {
+        margin-top: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 600px;
+        width: 100%; /*600px*/ /*100%*/
         height: 300px;
         border-radius: 10px;
         transition: .4s ease-in;
@@ -11,6 +13,7 @@
     }
 
     button {
+        margin: auto;
         font-size: 2rem;
         font-weight: 600;
         border-radius: 20px;
