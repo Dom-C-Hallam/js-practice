@@ -9,7 +9,7 @@ const add = document.querySelector('#add');
 //This creates a changeable variable named counter and sets its default value as 0.
 let counter = 0;
 
-//This adds an event when the user clicks the subtract button. It tells the button to minus from the value shown,
+//This adds an event when the user clicks one of the buttons. It tells the button to minus, add or reset the value shown,
 //it sets the 0 in index.html to the above value of counter, this is repeated throughout the other two bits of code below.
 sub.addEventListener('click', () => {
     counter--;
