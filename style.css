@@ -1,5 +1,12 @@
     /* +++ index.html/Home page CSS +++ */
-    
+
+    body {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
     /* This selects the <div> containing the button and creates a box around it*/
     .btnwrapper {
         margin-top: 50px; /* This pushes the button wrapper <div> 50px down from the above element */
@@ -12,8 +19,8 @@
         transition: .4s ease-in; /* This creates a transition effect when the colour is changed */
         border: 2px solid black; /* This creates a border around the div containing the button */
         box-shadow: 10px 10px 20px #333, -10px -10px 20px #bbb; /* This creates a shadow around the box */
-        position: relative;
     }
+
     /* This selects the button in index.html, it is currently the only button on the site*/
     button {
         font-size: 2rem; /* This sets the size of the font, rem is used to assist the media queries */
@@ -72,4 +79,25 @@
 
     #secs::after {
         content: 'S'
+    }
+
+    /* This is the CSS for the Counter app */
+
+    .counter-container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .counter-header, h1 {
+        margin-bottom: 10px;
+    }
+
+    .counter-header {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        padding: 10px 20px;
+        cursor: pointer; 
     }
